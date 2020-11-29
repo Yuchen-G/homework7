@@ -66,7 +66,7 @@ function gettingJSON() {
 
         description = json.weather[0].description;
         tempImg = json.weather[0].icon;
-        iconurl = "http://openweathermap.org/img/wn/" + tempImg + ".png";
+        iconurl = "https://openweathermap.org/img/wn/" + tempImg + ".png";
         setImg = document.querySelector("#tempImg");
         setImg.setAttribute("src", iconurl);
         setImg.setAttribute("alt", description);
